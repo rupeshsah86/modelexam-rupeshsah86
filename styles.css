@@ -1,0 +1,182 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+header {
+    background-color: #000000;
+    color: #f39c12;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #f39c12;
+    font-weight: 400;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #e67e22;
+}
+
+.home {
+    text-align: center;
+    padding: 100px 20px;
+    background: url('https://via.placeholder.com') center center no-repeat;
+    background-size: cover;
+    color: #ffffff;
+    position: relative;
+}
+
+.home h1 {
+    font-size: 48px;
+    margin: 0;
+}
+
+.home h1 span {
+    color: #f39c12;
+}
+
+.home p {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #f39c12;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #e67e22;
+}
+
+section {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #000000;
+    border-bottom: 1px solid #f39c12;
+}
+
+.about p, .projects p {
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.8;
+    font-size: 18px;
+    color: #dcdcdc;
+}
+
+.projects .project {
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #f39c12;
+    border-radius: 10px;
+    background-color: #111111;
+}
+
+.projects .project h3 {
+    font-size: 24px;
+    margin: 10px 0;
+    color: #f39c12;
+}
+
+.projects .project p {
+    font-size: 16px;
+    color: #dcdcdc;
+}
+
+.projects .project a {
+    color: #f39c12;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.skills ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.skills ul li {
+    margin: 10px 15px;
+    background: #f39c12;
+    padding: 10px 15px;
+    color: black;
+    border-radius: 5px;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+form input, form textarea, form button {
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+}
+
+form button {
+    background-color: #f39c12;
+    color: black;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #e67e22;
+}
+
+footer {
+    background: #000000;
+    color: #f39c12;
+    text-align: center;
+    padding: 20px;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: #f39c12;
+    margin: 0 10px;
+    font-weight: 600;
+}
+
+.social-links a:hover {
+    color: #e67e22;
+}
